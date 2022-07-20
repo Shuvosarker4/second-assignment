@@ -367,7 +367,78 @@ hr{
     }
     /* card section media query for mobile view end */
     /* footer section media query for mobile view start */
-
-
+    .footer-section{
+        margin-top: 1750px;
+        width: 375px;
+        height: 412px;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    hr{
+        width: 80%;
+        margin-left: 35px;
+    }
+    .social-media{
+        display: none;
+    }
     /* footer section media query for mobile view end */
+}
+
+/* responsive for tablet */
+@media only screen and (max-width:768px) and (min-width:577px) {
+    .card-section{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #match-btn{
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+    #group-btn{
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+    .buttons{
+        width: 1200px;
+        height: 100px;
+        background-color: #FFFFFF;
+        flex-direction: row;
+        gap: 45px;
+    }
+    .blog{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 70px;
+        margin-left: 250px;
+    }
+    .footer-section{
+        margin-top: 15px;
+        margin-left: 200px;
+        width: 800px;
+        height: 412px;
+    }
+    .top{
+        flex-direction: row;
+    }
+    .bottom{
+        flex-direction: row;
+    }
+    hr{
+        width: 80%;
+        margin-left: 65px;
+    }
+    .social-media{
+        display: block;
+    }
+    .view-btn{
+        text-align: center;
+        display: block;
+        margin-top: 730px;
+        margin-left: 450px;
+    }
 }
